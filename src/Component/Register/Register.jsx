@@ -163,13 +163,13 @@ export default function Register() {
                   >
                     {strings.register.register}
                   </Button>
-                  <h5 style={{margin:"11px"}}>{strings.register.or}</h5>
+                  {/* <h5 style={{margin:"11px"}}>{strings.register.or}</h5> */}
                 </div>
               </Form>
-              <Button onClick={()=>window.open('https://backend-ecocharge-v9vw.onrender.com/auth/google/callback','_self')} className="d-flex justify-content-center align-items-center m-auto w-100 text-center btn text-white google">
+              {/* <Button onClick={()=>window.open('https://backend-ecocharge-v9vw.onrender.com/auth/google/callback','_self')} className="d-flex justify-content-center align-items-center m-auto w-100 text-center btn text-white google">
                     <FcGoogle  className="text-2xl bg-white rounded-full mr-2" />{" "}
           {strings.register.continueWithGoogle}
-                  </Button>
+                  </Button> */}
             </div>
           </div>
         </div>

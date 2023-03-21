@@ -124,12 +124,12 @@ export default function SignIn(props) {
                   >
                     {strings.Login.login}
                   </Button>
-                  <h5 style={{margin:"11px"}}>{strings.Login.or}</h5>
+                  {/* <h5 style={{margin:"11px"}}>{strings.Login.or}</h5> */}
                 </div>
               </Form>
-              <Button onClick={()=>window.open('https://backend-ecocharge-v9vw.onrender.com/auth/google/callback','_self')} className="d-flex justify-content-center align-items-center m-auto w-100 text-center btn text-white google">
+              {/* <Button onClick={()=>window.open('https://backend-ecocharge-v9vw.onrender.com/auth/google/callback','_self')} className="d-flex justify-content-center align-items-center m-auto w-100 text-center btn text-white google">
                     <FcGoogle  className="text-2xl bg-white rounded-full mr-2" />{" "}
-                          {strings.Login.continueWithGoogle} </Button>
+                          {strings.Login.continueWithGoogle} </Button> */}
             </div>
           </div>
         </div>
