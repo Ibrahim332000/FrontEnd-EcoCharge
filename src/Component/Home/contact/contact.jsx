@@ -28,7 +28,7 @@ const Contact = () => {
     <section
       id="CONTACT"
       className="contact"
-      style={{ backgroundImage: "url('./images/2.jpeg')" }}
+      style={{ backgroundImage: "url('./Images/2.jpeg')" }}
     >
       <div className="contact-layer py-5">
         <div className="container bg-white ">

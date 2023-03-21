@@ -50,7 +50,7 @@ export default function SignIn(props) {
           <div className="col-md-6">
             <div className="contentImage">
               <img
-                src="./images/electric-vehicle.jpg"
+                src="./Images/electric-vehicle.jpg"
                 className="w-100 rounded-2"
                 alt=""
               />

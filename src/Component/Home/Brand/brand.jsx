@@ -9,32 +9,32 @@ const Brand = () => {
     <div className="row">
         <div className="col-md-2  my-3">
             <div className='brand' >
-                <img src="./images/partner-new-1.png" className='w-100' alt="" />
+                <img src="./Images/partner-new-1.png" className='w-100' alt="" />
             </div>
         </div>
         <div className="col-md-2  my-3">
             <div className='brand'>
-                <img src="./images/partner-new-2.png" className='w-100' alt="" />
+                <img src="./Images/partner-new-2.png" className='w-100' alt="" />
             </div>
         </div>
         <div className="col-md-2  my-3">
             <div className='brand'>
-                <img src="./images/partner-new-3.png" className='w-100' alt="" />
+                <img src="./Images/partner-new-3.png" className='w-100' alt="" />
             </div>
         </div>
         <div className="col-md-2  my-3">
             <div className='brand'>
-                <img src="./images/partner-new-4.png" className='w-100' alt="" />
+                <img src="./Images/partner-new-4.png" className='w-100' alt="" />
             </div>
         </div>
         <div className="col-md-2  my-3">
             <div className='brand'>
-                <img src="./images/partner-new-5.png" className='w-100' alt="" />
+                <img src="./Images/partner-new-5.png" className='w-100' alt="" />
             </div>
         </div>
         <div className="col-md-2  my-3">
             <div className='brand'>
-                <img src="./images/partner-new-6.png" className='w-100' alt="" />
+                <img src="./Images/partner-new-6.png" className='w-100' alt="" />
             </div>
         </div>
     </div>
