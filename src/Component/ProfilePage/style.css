@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    
 }
 
 .card {
@@ -24,7 +25,7 @@
     overflow: hidden;
     position: relative;
     margin:3px;
-    padding:10vh
+    padding:4rem;
 }
 
 .overlay {
