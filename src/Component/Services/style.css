@@ -1,6 +1,6 @@
 .ServiceDescription
 {
-    padding-top:15vh;
+    padding-top:12vh;
     /* vertical-align: middle; */
     font-weight:bolder;
     letter-spacing:1.5px;
@@ -62,7 +62,7 @@
     }
     .ServiceDescription
     {
-      padding-top: 10vh;
+      padding-top: 0vh !important;
     }
   .btnTag
   {
@@ -109,7 +109,7 @@
     }
     .ServiceDescription
     {
-      padding-top: 2vh;
+      padding-top: 5vh;
     }
   .btnTag
   {

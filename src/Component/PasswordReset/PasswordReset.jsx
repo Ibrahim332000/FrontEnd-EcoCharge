@@ -45,7 +45,7 @@ export default function PasswordReset() {
   return (
     <div className="contentRegister ">
       <h3 className="text-center pt-4 pb-2 mb-3">{strings.ResetPassword.resetPasswordForm}</h3>
-      <div className="container py-3">
+      <div className="container py-3 w-lg-50 w-md-100 w-sm-100">
         <div className="row justify-content-center align-items-center " style={{width:"50%"}}>
      
           <div className="col-lg-6">

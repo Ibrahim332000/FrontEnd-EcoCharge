@@ -60,7 +60,7 @@ export default function SignIn(props) {
             <div className="contentForm">
               <Form onSubmit={handleSubmit(onSubmit)}>
            
-                <Form.Group className="mb-3">
+                <Form.Group className="mb-3 mt-2">
                   <input
                     className={"form-control " +(strings.getLanguage()=='en' || 'rtl')}
                     id="email"

@@ -35,7 +35,6 @@ const EditProfile = (props) => {
 const handleUpdate=(e)=>
  {
     e.preventDefault();
-    console.log("before backend",userData)
     if(userData){
       axios.put(`https://backend-ecocharge-v9vw.onrender.com/api/user/put/${userData?._id}`,userData)
       .then((res)=>{
@@ -61,8 +60,7 @@ const handleUpdate=(e)=>
     //     return res;
     // }).catch(err =>console.log( err));
 }
-else
-console.log("id empty");
+
  }
 
  const uploadImage=(file)=>
