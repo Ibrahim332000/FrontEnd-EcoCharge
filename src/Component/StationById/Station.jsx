@@ -5,7 +5,7 @@ import { Navigate, useNavigate, useParams } from 'react-router';
 import "./styleStation.css";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import mapboxgl from '!mapbox-gl';
+import mapboxgl from 'mapbox-gl';
 import StarRating from './RatingStar';
 import strings from "../../lang/lang";
 mapboxgl.accessToken = 'pk.eyJ1IjoiaXRpcHJvamVjdCIsImEiOiJjbGVsY2E5czQwdTNjM3ZwZzNycmtnMjJxIn0.F7H8MLWhaWVkVhKlD-WlZw';
