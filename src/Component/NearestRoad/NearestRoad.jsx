@@ -5,8 +5,9 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import axios from 'axios'
 import './style.css' 
 import strings from '../../lang/lang';
-import MapboxLanguage from '@mapbox/mapbox-gl-language';
-mapboxgl.accessToken = 'pk.eyJ1IjoiaXRpcHJvamVjdCIsImEiOiJjbGVsY2E5czQwdTNjM3ZwZzNycmtnMjJxIn0.F7H8MLWhaWVkVhKlD-WlZw';
+import MapboxLanguage from '@mapbox/mapbox-gl-language'
+var token=["pk.eyJ1IjoiaXRpcHJvamVjdCIsImEiOiJjbGVsY2E5czQwdTNjM3ZwZzNycmtnMjJxIn0.F7H8MLWhaWVkVhKlD-WlZw","pk.eyJ1IjoiZWNvY2hhcmdlIiwiYSI6ImNsZmk5dHd5ZTI2N28zcXBnZnhlNjZpMnYifQ.XyDv-FEtP_Duf95-GFqkig"]
+mapboxgl.accessToken =token[Math.floor(Math.random()*2)]
 const getNearestStation = (position)=>{
 return  axios.get(`https://backend-ecocharge-v9vw.onrender.com/api/map/${position.coords.longitude},${position.coords.latitude}`,{
   headers:{

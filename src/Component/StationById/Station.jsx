@@ -8,7 +8,8 @@ import Modal from 'react-bootstrap/Modal';
 import mapboxgl from 'mapbox-gl';
 import StarRating from './RatingStar';
 import strings from "../../lang/lang";
-mapboxgl.accessToken = 'pk.eyJ1IjoiaXRpcHJvamVjdCIsImEiOiJjbGVsY2E5czQwdTNjM3ZwZzNycmtnMjJxIn0.F7H8MLWhaWVkVhKlD-WlZw';
+var token=["pk.eyJ1IjoiaXRpcHJvamVjdCIsImEiOiJjbGVsY2E5czQwdTNjM3ZwZzNycmtnMjJxIn0.F7H8MLWhaWVkVhKlD-WlZw","pk.eyJ1IjoiZWNvY2hhcmdlIiwiYSI6ImNsZmk5dHd5ZTI2N28zcXBnZnhlNjZpMnYifQ.XyDv-FEtP_Duf95-GFqkig"]
+mapboxgl.accessToken =token[Math.floor(Math.random()*2)]
 
 const Station = () => {
   const mapContainer = useRef(null);
