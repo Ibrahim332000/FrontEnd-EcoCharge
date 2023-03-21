@@ -82,6 +82,7 @@ var strings = new LocalizedStrings({
     },
     register: {
       registerationForm: "Registeration Form",
+      placeholderName: "Please Enter your Name",
       placeholderEmail: "Please Enter your Email ",
       placeholderPassword: "Please  Enter your password",
       placeholderConfirmPassword: "Please Confirm your password",
