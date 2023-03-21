@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import strings from "../../../lang/lang";
-
+import "./dashboard-style.css"
 import {
   CAvatar,
   CButton,
