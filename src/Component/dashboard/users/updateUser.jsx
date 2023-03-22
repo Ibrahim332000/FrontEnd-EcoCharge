@@ -57,7 +57,7 @@ setValue,
   return (
     userDetails &&
     <div className="contentRegister ">
-      <h3 className="text-center pt-4 pb-2 mb-3">{strings.dashboard.AddUser}</h3>
+      <h3 className="text-center pt-4 pb-2 mb-3">{strings.dashboard.UpdateUser}</h3>
       <Form onSubmit={handleSubmit(onSubmit)}>
       <div className="container py-3">
         <div className="row">

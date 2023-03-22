@@ -94,7 +94,7 @@ const UpdataStation = () => {
         <h3 className="text-center pt-4 pb-2 mb-3">{strings.dashboard.updateStation}</h3>
         <Form onSubmit={handleSubmit(onSubmit)}>
           <div className="container py-3">
-            <div className="row">
+            <div className="row w-100">
               <div className="col-md-6">
                 <Form.Group className="mb-3 mt-1">
                   <Form.Label htmlFor="station_name">{strings.dashboard.station_name}</Form.Label>
